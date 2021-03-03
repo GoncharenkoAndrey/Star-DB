@@ -2,6 +2,8 @@ import React, {Component} from "react";
 import Header from "../Header/Header";
 import RandomPlanet from "../RandomPlanet/RandomPlanet";
 import PeoplePage from "../PeoplePage/PeoplePage";
+import PlanetPage from "../PlanetPage/PlanetPage";
+import StarshipPage from "../StarshipPage/StarshipPage";
 import "./App.css";
 export default class App extends Component {
 	state = {
@@ -25,6 +27,8 @@ export default class App extends Component {
 					Toggle Random Planet
 				</button>
 				<PeoplePage />
+				<PlanetPage />
+				<StarshipPage />
 			</div>
 		);
 	}
